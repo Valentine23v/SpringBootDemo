@@ -8,6 +8,7 @@ public class HelloController {
 	
 	@RequestMapping("/hello")
 	public String index(String name){
+		//可以获取参数并返回
 		return "Hello"+name;
 	}
 
